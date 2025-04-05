@@ -57,7 +57,7 @@ function Cta({ refProp }) {
         <input
           type="text"
           placeholder=" E-MAIL"
-          className=" bg-white text-base w-full max-w-md px-4 py-2 :"
+          className=" bg-white text-base w-full max-w-md px-4 py-2 lowercase"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
