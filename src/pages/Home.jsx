@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import HeroSection from "../components/HeroSection";
-import About from "../components/about";
+import About from "../components/About";
 import WhyJoin from "../components/WhyJoin";
 import NavBar from "../components/NavBar";
 import JourneyMap from "../components/JourneyMap";
