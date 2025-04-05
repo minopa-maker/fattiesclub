@@ -47,7 +47,7 @@ function Cta({ refProp }) {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="NAME"
+          placeholder="Name"
           className="bg-white text-base w-full max-w-md px-4 py-2"
           value={name}
           onChange={(e) => setName(e.target.value)}
