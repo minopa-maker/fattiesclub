@@ -4,7 +4,7 @@ function NavBar({ onJoinClick }) {
   return (
     <div className="mb-1 flex items-center justify-between px-6 py-4">
       <img
-        src="/logo2.svg"
+        src="/logov3.svg"
         alt="
       Fatties Club Logo"
         className="h-15"
