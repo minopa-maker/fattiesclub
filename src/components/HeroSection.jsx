@@ -3,6 +3,9 @@ import React from "react";
 const HeroSection = ({ onJoinClick }) => {
   return (
     <section className="-mb-7 text-center p-10 text-white h-screen flex flex-col items-center justify-center ">
+      <h2 className=" sm: -mb-5">
+        A community built for those tired of going it alone
+      </h2>
       <h1 className="sm: text-4xl p-5  md:text-8xl font-bold mt-5">
         STRONGER, TOGETHER - <br /> WELCOME TO THE FATTIES CLUB.
       </h1>
