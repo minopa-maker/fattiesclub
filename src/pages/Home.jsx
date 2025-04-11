@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Helmet } from "react-helmet";
 import HeroSection from "../components/HeroSection";
 import About from "../components/About";
 import WhyJoin from "../components/WhyJoin";
@@ -26,6 +27,13 @@ function Home() {
         <About />
         <Cta refProp={ctaRef} />
         <Footer />
+        <Helmet>
+          <title>Fatties Club – Join Us</title>
+          <meta
+            name="description"
+            content="Join a supportive community on a journey of self-improvement, fitness, and positive lifestyle changes."
+          />
+        </Helmet>
       </div>
     </>
   );
