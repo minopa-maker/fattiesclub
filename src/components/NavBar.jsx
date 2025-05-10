@@ -11,7 +11,7 @@ function NavBar({ onJoinClick }) {
       />
       <button
         onClick={onJoinClick}
-        className="px-4 py-2 bg-orange-500 hover:bg-orange-700 transition duration-100 text-white rounded"
+        className="px-4 py-2 bg-orange-500 hover:bg-orange-700 transition duration-100 text-white rounded cursor-pointer"
       >
         JOIN THE CLUB
       </button>

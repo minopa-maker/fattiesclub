@@ -8,6 +8,7 @@ import JourneyMap from "../components/JourneyMap";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 import HeroFollowUp from "../components/HeroFollowUp";
+import CtaPaid from "../components/CtaPaid";
 
 function Home() {
   const ctaRef = useRef(null);
@@ -24,7 +25,9 @@ function Home() {
         <HeroFollowUp />
         <WhyJoin onJoinClick={scrollToCta} />
         <JourneyMap />
+        <CtaPaid />
         <About />
+
         <Cta refProp={ctaRef} />
         <Footer />
         <Helmet>

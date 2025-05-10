@@ -38,10 +38,11 @@ function Cta({ refProp }) {
       ref={refProp}
       className="text-center mb-8 bg-neutral-900 rounded m-5 p-5"
     >
-      <h2 className="text-3xl text-white font-bold mt-4 mb-3">JOIN THE CLUB</h2>
+      <h2 className="text-3xl text-white font-bold mt-4 mb-3">
+        SUBSCRIBE TO OUR NEWSLETTER
+      </h2>
       <h3 className="text-2xl text-white font-bold mb-4">
-        Join Fatties Club and start your journey with a group of people who get
-        you
+        Get motivation, tips, and updates - Straight to your inbox.
       </h3>
 
       <form onSubmit={handleSubmit}>
@@ -67,7 +68,7 @@ function Cta({ refProp }) {
           type="submit"
           className="bg-orange-500  hover:bg-orange-600 cursor-pointer transition duration-100 text-2xl px-4 py-2 text-white font-bold"
         >
-          GET STARTED
+          JOIN NOW
         </button>
       </form>
 
