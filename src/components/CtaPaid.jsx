@@ -4,7 +4,10 @@ import React from "react";
 
 const MembershipCTA = () => {
   return (
-    <section className="bg-neutral-900 text-white py-16 px-6 text-center rounded-lg max-w-3xl mx-auto shadow-lg">
+    <section
+      id="ctaPaid"
+      className="bg-neutral-900 text-white py-16 px-6 text-center rounded-lg max-w-3xl mx-auto shadow-lg"
+    >
       <img
         src="/logov3.svg" // Pretpostavljam da se logo zove 'logo.png'. Promijeni ako nije.
         alt="Fatties Club Logo"

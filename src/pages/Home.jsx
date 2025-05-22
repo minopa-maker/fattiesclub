@@ -13,17 +13,20 @@ import CtaPaid from "../components/CtaPaid";
 function Home() {
   const ctaRef = useRef(null);
 
-  const scrollToCta = () => {
-    ctaRef.current?.scrollIntoView({ behavior: "smooth" });
+  const scrollToCtaPaid = () => {
+    const section = document.getElementById("ctaPaid");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <>
       <div>
-        <NavBar onJoinClick={scrollToCta} />
-        <HeroSection onJoinClick={scrollToCta} />
+        <NavBar onJoinClick={scrollToCtaPaid} />
+        <HeroSection onJoinClick={scrollToCtaPaid} />
         <HeroFollowUp />
-        <WhyJoin onJoinClick={scrollToCta} />
+        <WhyJoin onJoinClick={scrollToCtaPaid} />
         <JourneyMap />
         <CtaPaid />
         <About />
